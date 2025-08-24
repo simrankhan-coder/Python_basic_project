@@ -29,4 +29,8 @@ elif op=='/':
 elif op=='-':
     result="invalid operator"
 
+<<<<<<< HEAD
 print("Result:",result)
+=======
+print("Result:",result)
+>>>>>>> af6a4013b2cacd26946fb4df6a4c1deaed1cf04a
