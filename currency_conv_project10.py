@@ -1,6 +1,12 @@
 import requests
 def convert_currency(from_currency,to_currency,amount):
-    url=f"https://api.exchangerate.host/convert"
+    API_KEY = "YOUR_API_KEY_HERE"
+    url = "https://api.apilayer.com/exchangerates_data/convert"
+
+    headers = {
+        "apikey": API_KEY
+    }
+
     params={"from":from_currency,
             "to":to_currency,
             "amount":amount
